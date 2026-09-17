@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marine Sustainability & Puerto Rico — Marley Renee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #072b28;
+      --white: #ffffff;
+      --cream: #eef7f3;
+      --gray: #4d6b66;
+      --deep-teal: #05363b;
+      --ocean-blue: #118ab2;
+      --palm-green: #06a77d;
+      --leaf-green: #2f9e44;
+      --sand: #eef7f3;
+      --accent: #06d6a0;
+      --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-fraktur: "UnifrakturMaguntia", cursive;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--cream);
+      color: var(--black);
+      font-family: var(--font);
+      line-height: 1.5;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, var(--deep-teal), var(--ocean-blue) 60%, var(--palm-green));
+      color: var(--white);
+      padding: 100px 40px;
+      text-align: center;
+    }
+
+    .hero .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-family: var(--font-fraktur);
+      font-size: 4rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      margin-bottom: 20px;
+      text-transform: none;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: var(--white);
+      text-decoration: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+      padding-bottom: 2px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .back-link:hover {
+      opacity: 0.8;
+    }
+
+    /* SECTION WRAPPER */
+    .section {
+      padding: 80px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .section-title {
+      font-size: 2.4rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      letter-spacing: -0.02em;
+      color: var(--deep-teal);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 60px;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .bio {
+      font-size: 1.15rem;
+      color: var(--black);
+      margin-bottom: 20px;
+    }
+
+    .tags {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      padding: 8px 16px;
+      border: 2px solid var(--palm-green);
+      color: var(--deep-teal);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .list {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .list li {
+      margin-bottom: 14px;
+      font-size: 1rem;
+      color: var(--gray);
+    }
+
+    .list li span {
+      color: var(--leaf-green);
+      font-weight: 600;
+    }
+
+    blockquote {
+      border-left: 4px solid var(--palm-green);
+      padding-left: 24px;
+      margin: 30px 0;
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--deep-teal);
+    }
+
+    /* FOOTER */
+    .footer {
+      padding: 60px 40px;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .footer a {
+      color: var(--ocean-blue);
+      text-decoration: none;
+      border-bottom: 2px solid var(--ocean-blue);
+      padding-bottom: 2px;
+      font-weight: 600;
+    }
+
+    .footer a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">Puerto Rico &middot; June</p>
+    <h1>Tides &amp; Territory</h1>
+    <p>Marine sustainability, resource preservation, and the fight for self-determination — what a summer in Puerto Rico taught me about the true cost of "paradise."</p>
+    <a class="back-link" href="/index.html">&larr; Back to home</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <h2 class="section-title">What I Saw on the Island</h2>
+
+    <div class="about-grid">
+      <div>
+        <p class="bio">
+          I spent June studying abroad in Puerto Rico, and it reshaped how I think about
+          sustainability, tourism, and who gets to decide what "development" means for a
+          place. Snorkeling reef surveys off the southwest coast and sitting in on lectures
+          about coral bleaching made the science real in a way a classroom never could —
+          but it was the conversations with local farmers and fishers that stuck with me most.
+        </p>
+
+        <p class="bio">
+          I visited small-scale, regenerative farms working to restore soil health after
+          decades of monoculture agriculture, and talked with cooperatives experimenting with
+          agroecology as a way to build food sovereignty independent of imported goods. I also
+          saw the flip side: coastline being sold off for resorts and short-term rentals,
+          pricing out the very communities whose stewardship kept those ecosystems intact in
+          the first place.
+        </p>
+
+        <p class="bio">
+          That contrast is what pulled me toward the island's political history. Puerto Rico's
+          environmental and economic struggles are inseparable from its colonial status —
+          from the Jones Act's shipping restrictions to fiscal oversight boards making
+          decisions with no local vote. Learning about grassroots pushes for legislative
+          reform, energy independence, and decolonization gave me language for something I'd
+          only felt instinctively: you can't talk about "sustainability" honestly without
+          talking about sovereignty.
+        </p>
+
+        <blockquote>
+          "You can't preserve what you don't control." — something a farmer I met outside
+          Cabo Rojo said, and I haven't stopped thinking about it since.
+        </blockquote>
+
+        <p class="bio">
+          I came home wanting to keep learning — about marine ecosystems, about
+          regenerative agriculture, and about the anti-colonial legislation and organizing
+          that treats environmental justice and political self-determination as the same
+          fight.
+        </p>
+
+        <div class="tags">
+          <div class="tag">Marine Ecology</div>
+          <div class="tag">Sustainable Farming</div>
+          <div class="tag">Regenerative Tourism</div>
+          <div class="tag">Anti-Colonial Policy</div>
+          <div class="tag">Puerto Rico</div>
+        </div>
+      </div>
+
+      <aside>
+        <h3 class="section-title" style="font-size:1.4rem; margin-bottom:20px;">While There</h3>
+        <ul class="list">
+          <li><span>Studied:</span> reef ecology &amp; coastal resource management</li>
+          <li><span>Visited:</span> regenerative farms near Cabo Rojo and Lajas</li>
+          <li><span>Talked with:</span> local fishers, farming cooperatives, and organizers</li>
+        </ul>
+
+        <h3 class="section-title" style="font-size:1.4rem; margin:40px 0 20px;">What I Care About</h3>
+        <ul class="list">
+          <li>Protecting reefs and coastlines from extractive tourism.</li>
+          <li>Food sovereignty and regenerative, small-scale agriculture.</li>
+          <li>Legislation that ties environmental justice to self-determination.</li>
+          <li>Listening to the people already doing the stewardship work.</li>
+        </ul>
+
+        <h3 class="section-title" style="font-size:1.4rem; margin:40px 0 20px;">Still Learning</h3>
+        <ul class="list">
+          <li>Puerto Rico's status debates and decolonization movements.</li>
+          <li>Community-led alternatives to industrial tourism.</li>
+          <li>How other island nations are legislating for resource sovereignty.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p><a href="/index.html">&larr; Back to home</a></p>
+  </footer>
+
+</body>
+</html>
