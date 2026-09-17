@@ -6,176 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --black: #072b28;
-      --white: #ffffff;
-      --cream: #eef7f3;
-      --gray: #4d6b66;
-      --deep-teal: #05363b;
-      --ocean-blue: #118ab2;
-      --palm-green: #06a77d;
-      --leaf-green: #2f9e44;
-      --sand: #eef7f3;
-      --accent: #06d6a0;
-      --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      --font-fraktur: "UnifrakturMaguntia", cursive;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background: var(--cream);
-      color: var(--black);
-      font-family: var(--font);
-      line-height: 1.5;
-    }
-
-    /* HERO */
-    .hero {
-      background: linear-gradient(135deg, var(--deep-teal), var(--ocean-blue) 60%, var(--palm-green));
-      color: var(--white);
-      padding: 120px 40px;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-family: var(--font-fraktur);
-      font-size: 5.5rem;
-      font-weight: 400;
-      letter-spacing: 0;
-      margin-bottom: 20px;
-      text-transform: none;
-      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
-    }
-
-    .hero p {
-      font-size: 1.3rem;
-      max-width: 700px;
-      margin: 0 auto;
-      opacity: 0.9;
-    }
-
-    /* SECTION WRAPPER */
-    .section {
-      padding: 80px 40px;
-      max-width: 1200px;
-      margin: 0 auto;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .section-title {
-      font-size: 2.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 40px;
-      letter-spacing: -0.02em;
-      color: var(--deep-teal);
-    }
-
-    /* ABOUT GRID */
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 60px;
-    }
-
-    @media (max-width: 900px) {
-      .about-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .bio {
-      font-size: 1.15rem;
-      color: var(--black);
-      margin-bottom: 20px;
-    }
-
-    /* TAGS */
-    .tags {
-      margin-top: 20px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .tag {
-      padding: 8px 16px;
-      border: 2px solid var(--palm-green);
-      color: var(--deep-teal);
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-    }
-
-    /* SIDEBAR LISTS */
-    .list {
-      list-style: none;
-      margin-top: 10px;
-    }
-
-    .list li {
-      margin-bottom: 14px;
-      font-size: 1rem;
-      color: var(--gray);
-    }
-
-    .list li span {
-      color: var(--leaf-green);
-      font-weight: 600;
-    }
-
-    .list li a {
-      color: var(--ocean-blue);
-      font-weight: 600;
-      text-decoration: none;
-      border-bottom: 2px solid var(--ocean-blue);
-      padding-bottom: 1px;
-    }
-
-    .list li a:hover {
-      opacity: 0.7;
-    }
-
-    /* FOOTER */
-    .footer {
-      padding: 60px 40px;
-      text-align: center;
-      font-size: 1rem;
-    }
-
-    .footer a {
-      color: var(--ocean-blue);
-      text-decoration: none;
-      border-bottom: 2px solid var(--ocean-blue);
-      padding-bottom: 2px;
-      font-weight: 600;
-    }
-
-    .footer a:hover {
-      opacity: 0.7;
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
 
+  <!-- NAV -->
+  <nav class="nav">
+    <a class="nav-mark" href="/index.html">marley renee</a>
+    <ul class="nav-links">
+      <li><a href="/index.html" class="active">home</a></li>
+      <li><a href="/sustainability.html">puerto rico</a></li>
+    </ul>
+  </nav>
+
   <!-- HERO -->
   <section class="hero">
-    <h1>Marley Renee</h1>
+    <p class="eyebrow">cincinnati, ohio</p>
+    <h1>marley renee</h1>
     <p>Curious mind. Strong point of view. A life built with intention and boldness.</p>
+    <a class="cta cta-ghost" href="#about">about me &rarr;</a>
   </section>
 
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>curious</span><span>introspective</span><span>detail&#8209;driven</span><span>always learning</span>
+      <span>curious</span><span>introspective</span><span>detail&#8209;driven</span><span>always learning</span>
+    </div>
+  </div>
+
   <!-- ABOUT -->
-  <section class="section">
-    <h2 class="section-title">About Me</h2>
+  <section class="section" id="about">
+    <h2 class="section-title">about me</h2>
 
     <div class="about-grid">
       <div>
@@ -192,42 +55,48 @@
         </p>
 
         <div class="tags">
-          <div class="tag">Curious</div>
-          <div class="tag">Introspective</div>
-          <div class="tag">Detail‑Driven</div>
-          <div class="tag">Always Learning</div>
+          <div class="tag">curious</div>
+          <div class="tag">introspective</div>
+          <div class="tag">detail&#8209;driven</div>
+          <div class="tag">always learning</div>
         </div>
       </div>
 
-      <aside>
-        <h3 class="section-title" style="font-size:1.4rem; margin-bottom:20px;">Quick Facts</h3>
-        <ul class="list">
-          <li><span>Based in:</span> Cincinnati, Ohio</li>
-          <li><span>Vibes:</span> thoughtful, grounded, a little nerdy</li>
-          <li><span>Fuel:</span> coffee, music, better questions</li>
-        </ul>
+      <aside class="card-grid">
+        <div class="card">
+          <h3>quick facts</h3>
+          <ul class="list">
+            <li><span>Based in:</span> Cincinnati, Ohio</li>
+            <li><span>Vibes:</span> thoughtful, grounded, a little nerdy</li>
+            <li><span>Fuel:</span> coffee, music, better questions</li>
+          </ul>
+        </div>
 
-        <h3 class="section-title" style="font-size:1.4rem; margin:40px 0 20px;">What I Care About</h3>
-        <ul class="list">
-          <li>Work that feels aligned, not performative.</li>
-          <li>Relationships built on honesty and curiosity.</li>
-          <li>Systems that make life calmer, not louder.</li>
-        </ul>
+        <div class="card">
+          <h3>what i care about</h3>
+          <ul class="list">
+            <li>Work that feels aligned, not performative.</li>
+            <li>Relationships built on honesty and curiosity.</li>
+            <li>Systems that make life calmer, not louder.</li>
+          </ul>
+        </div>
 
-        <h3 class="section-title" style="font-size:1.4rem; margin:40px 0 20px;">Currently Into</h3>
-        <ul class="list">
-          <li>Creative projects and storytelling.</li>
-          <li>Habit refinement — small shifts, big impact.</li>
-          <li>Understanding how people think and connect.</li>
-          <li><a href="/sustainability.html">Marine sustainability &amp; Puerto Rico →</a></li>
-        </ul>
+        <div class="card">
+          <h3>currently into</h3>
+          <ul class="list">
+            <li>Creative projects and storytelling.</li>
+            <li>Habit refinement — small shifts, big impact.</li>
+            <li>Understanding how people think and connect.</li>
+            <li><a href="/sustainability.html">Marine sustainability &amp; Puerto Rico &rarr;</a></li>
+          </ul>
+        </div>
       </aside>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>Let’s connect: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>let’s connect: <a href="mailto:you@example.com">you@example.com</a></p>
   </footer>
 
 </body>
