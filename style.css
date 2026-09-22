@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --black: #072b28;
-  --white: #ffffff;
-  --cream: #eef7f3;
-  --gray: #4d6b66;
-  --deep-teal: #05363b;
-  --ocean-blue: #118ab2;
-  --palm-green: #06a77d;
-  --leaf-green: #2f9e44;
-  --sand: #eef7f3;
-  --accent: #06d6a0;
+  --black: #1c0f08;
+  --white: #fff8ef;
+  --cream: #ffe2b0;
+  --gray: #6b4a35;
+  --deep-teal: #14352a;
+  --ocean-blue: #0e8a86;
+  --palm-green: #ff5a1f;
+  --leaf-green: #b5651d;
+  --sand: #ffdca8;
+  --accent: #b3122b;
   --font: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -73,7 +73,7 @@ a {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, var(--deep-teal), var(--ocean-blue) 60%, var(--palm-green));
+  background: linear-gradient(135deg, var(--deep-teal), var(--palm-green) 55%, var(--accent));
   color: var(--white);
   padding: 140px 40px;
   text-align: center;
@@ -134,7 +134,7 @@ a {
 .marquee {
   overflow: hidden;
   white-space: nowrap;
-  background: var(--deep-teal);
+  background: var(--palm-green);
   padding: 22px 0;
 }
 
@@ -149,7 +149,7 @@ a {
   text-transform: lowercase;
   font-size: 1.6rem;
   font-weight: 800;
-  color: var(--white);
+  color: var(--black);
   letter-spacing: -0.01em;
   padding-right: 40px;
 }
@@ -157,7 +157,7 @@ a {
 .marquee-track span::after {
   content: "\2022";
   margin-left: 40px;
-  color: var(--palm-green);
+  color: var(--deep-teal);
 }
 
 @keyframes scroll {
@@ -235,6 +235,7 @@ a {
   background: var(--white);
   padding: 24px;
   border-radius: 4px;
+  border-top: 3px solid var(--palm-green);
 }
 
 .card h3 {
@@ -286,6 +287,25 @@ a {
 
 .list li a:hover {
   opacity: 0.7;
+}
+
+.list-numbered {
+  counter-reset: list-num;
+}
+
+.list-numbered li {
+  counter-increment: list-num;
+  padding-left: 22px;
+}
+
+.list-numbered li::before {
+  content: counter(list-num) ".";
+  width: auto;
+  height: auto;
+  background: none;
+  color: var(--palm-green);
+  font-weight: 700;
+  top: 0;
 }
 
 blockquote {
