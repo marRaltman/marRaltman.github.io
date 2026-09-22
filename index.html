@@ -15,7 +15,7 @@
 
   <!-- NAV -->
   <nav class="nav">
-    <a class="nav-mark" href="/index.html">marley renee</a>
+    <a class="nav-mark" href="/index.html">Marley Renee</a>
     <ul class="nav-links">
       <li><a href="/index.html" class="active">home</a></li>
       <li><a href="/sustainability.html">restless</a></li>
@@ -24,8 +24,11 @@
 
   <!-- HERO -->
   <section class="hero">
-    <p class="eyebrow">cincinnati, ohio</p>
-    <h1>marley renee</h1>
+    <p class="eyebrow">Cincinnati, Ohio</p>
+    <div class="hero-headline">
+      <h1>Marley Renee</h1>
+      <img class="portrait-frame" src="/images/marley-portrait.jpg" alt="Marley Renee" />
+    </div>
     <p>Curious mind. Strong point of view. A life built with intention and boldness.</p>
     <a class="cta cta-ghost" href="#about">about me &rarr;</a>
   </section>
@@ -64,8 +67,14 @@
         </ul>
       </div>
 
-      <aside class="card-grid">
-        <div class="card">
+      <aside class="card-grid" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="about me categories">
+          <button class="tab-btn" role="tab" aria-selected="true" data-tab="0">quick facts</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="1">what i care about</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="2">currently into</button>
+        </div>
+
+        <div class="card" role="tabpanel" data-panel="0">
           <h3>quick facts</h3>
           <ul class="list">
             <li><span>Based in:</span> Cincinnati, Ohio</li>
@@ -74,7 +83,7 @@
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card" role="tabpanel" data-panel="1" hidden>
           <h3>what i care about</h3>
           <ul class="list">
             <li>Work that feels aligned, not performative.</li>
@@ -83,13 +92,13 @@
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card" role="tabpanel" data-panel="2" hidden>
           <h3>currently into</h3>
           <ul class="list">
             <li>Creative projects and storytelling.</li>
             <li>Habit refinement — small shifts, big impact.</li>
             <li>Understanding how people think and connect.</li>
-            <li><a href="/sustainability.html">Safe now, still restless &rarr;</a></li>
+            <li><a href="/sustainability.html">Safe Now, Still Restless &rarr;</a></li>
           </ul>
         </div>
       </aside>
@@ -101,5 +110,6 @@
     <p>let’s connect: <a href="mailto:you@example.com">you@example.com</a></p>
   </footer>
 
+  <script src="/script.js"></script>
 </body>
 </html>

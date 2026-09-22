@@ -15,7 +15,7 @@
 
   <!-- NAV -->
   <nav class="nav">
-    <a class="nav-mark" href="/index.html">marley renee</a>
+    <a class="nav-mark" href="/index.html">Marley Renee</a>
     <ul class="nav-links">
       <li><a href="/index.html">home</a></li>
       <li><a href="/sustainability.html" class="active">restless</a></li>
@@ -45,13 +45,11 @@
     <div class="about-grid">
       <div>
         <p class="bio lede">
-          I don't usually write about this part directly, and I'm not going to here either —
-          not because it's a secret, but because some things need more room than a bio page
-          can hold. What I will say is that a few years ago I went through something that
-          genuinely knocked me down, and that the version of me writing this right now exists
-          because I did the unglamorous, repetitive work of building myself back. New support
-          system. New habits. A hard-won, still-fragile sense that the ground under me is
-          actually solid.
+          The tricky thing about life is that it demands evolution. Positive and Negative
+          experiences have no alternative output than a whole new person. The version of me
+          writing this right now exists because I did the unglamorous, repetitive work of
+          building myself back. New support system. New habits. A hard-won, still-fragile
+          sense that the ground under me is actually solid.
         </p>
 
         <p class="bio">
@@ -105,8 +103,14 @@
         </ul>
       </div>
 
-      <aside class="card-grid">
-        <div class="card">
+      <aside class="card-grid" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="page categories">
+          <button class="tab-btn" role="tab" aria-selected="true" data-tab="0">what's true right now</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="1">what i'm working through</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-tab="2">elsewhere</button>
+        </div>
+
+        <div class="card" role="tabpanel" data-panel="0">
           <h3>what's true right now</h3>
           <ul class="list">
             <li><span>Rebuilding:</span> a life that finally feels steady</li>
@@ -115,7 +119,7 @@
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card" role="tabpanel" data-panel="1" hidden>
           <h3>what i'm working through</h3>
           <ul class="list">
             <li>Wanting big things without needing them to prove my worth.</li>
@@ -125,11 +129,11 @@
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card" role="tabpanel" data-panel="2" hidden>
           <h3>elsewhere</h3>
           <ol class="list list-numbered">
             <li>
-              <a href="https://www.linkedin.com/in/maraltman22/" target="_blank" rel="noopener">linkedin</a>
+              <a href="https://www.linkedin.com/in/maraltman22/" target="_blank" rel="noopener">LinkedIn</a>
               — the more professional read on who I am, for anyone who wants that context.
             </li>
             <li>
@@ -148,5 +152,6 @@
     <p><a href="/index.html">&larr; back to home</a></p>
   </footer>
 
+  <script src="/script.js"></script>
 </body>
 </html>
