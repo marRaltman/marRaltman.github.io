@@ -24,7 +24,7 @@ There's a half-painted dresser in the garage, two of the same glue gun in the dr
 
 ---
 
-## Two things, one app
+## Infinite creative muses, one app
 
 ### My Projects
 
