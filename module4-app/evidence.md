@@ -35,4 +35,6 @@ No numbers have been gathered yet. **Don't fill these in with guesses.** Ways to
   - General to-do or notes apps: track tasks, but don't know about supplies, cost, or drying time.
   - Pinterest or tutorial sites: lots of ideas, no planning, and no sense of how hard or long something is.
   - Prompt challenges (like drawing-a-day lists): daily ideas, but one medium and one difficulty level, and not connected to your own projects.
-- Gap: nothing combines **your own project planning** with **daily prompts at your level**.
+- **Model app: Osta** (https://ostarecipes.com/welcome, App Store: https://apps.apple.com/us/app/6739286231). A recipe app that imports recipes from Instagram, TikTok, and websites and organizes them. The listing describes a free version and a subscription with premium features (ad-free smart imports, photo scanning). Reviews are mixed on import accuracy, especially from TikTok. This shows people want to turn social posts into usable instructions, but it's for food, not crafts.
+  - Difference: Artistic Intelligence is a one-time purchase with no ads, and free with a `.edu` email.
+- Gap: nothing combines **your own project planning**, **daily prompts at your level**, and **importing craft posts from social media**.

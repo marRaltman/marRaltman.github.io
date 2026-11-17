@@ -19,6 +19,16 @@ If the problem changes, update the files downstream of it so they stay consisten
 - **Project planner:** the user's own projects, with materials, cost, steps, time, and deadlines.
 - **Daily creative tasks:** one small prompt a day in three levels: **Sketch** (about 5 minutes), **Study** (about 30 minutes), **Masterpiece** (a weekend or longer). Keep these level names the same in every file.
 
+## Decisions (from Marley's interview, 2026-11-17)
+
+Keep every file consistent with these:
+
+- **Task sources:** a pre-written starter library, tasks shared by users, and social media posts imported into the app. Imports pull out supplies and steps and become an organized task.
+- **Private or shared:** the user picks for each task they add or import. The app suggests a level; the user can change it.
+- **Not social media:** a private notebook with a shared task library. No feed, algorithm, likes, comments, following, ads, promoted posts, or monetized accounts.
+- **Leveling up:** never automatic. After about 30 days in a row (at least one task a day), the app asks if the user wants harder tasks; "not yet" means it asks again in 30 days.
+- **Price:** one-time purchase. Free for valid `.edu` emails. Sign-up asks for a main and a backup email so users keep their account and free access after graduation. A `.edu` account never has to pay later; only a brand-new non-`.edu` account pays.
+
 ## Rules
 
 - Written in Marley's voice: plain, specific, a little warm. No "delve," "in today's world," or hype words like "revolutionary."

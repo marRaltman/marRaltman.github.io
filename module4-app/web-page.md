@@ -43,7 +43,11 @@ A new creative prompt every day. You pick how much you've got.
 - **Study:** 30 minutes. *Make a bookmark from an old magazine page.*
 - **Masterpiece:** a weekend. *Turn a thrifted frame into a mosaic mirror.*
 
-Prompts use supplies you already own, and they get harder as you do.
+Prompts use supplies you already own. After 30 days in a row, the app asks if you're ready for harder ones. You decide.
+
+### Save it from your feed
+
+See a craft on TikTok, Instagram, or Pinterest? Share the post to Artistic Intelligence. It pulls out the supplies and steps and turns them into a task you can actually follow. Keep it private, or share it with everyone.
 
 ---
 
@@ -51,11 +55,25 @@ Prompts use supplies you already own, and they get harder as you do.
 
 **1. Tell it what you like.** Painting, sewing, woodworking, paper, anything.
 
-**2. Add your projects.** Describe them or paste a tutorial link.
+**2. Add your projects.** Describe them, paste a tutorial link, or share a post.
 
 **3. Open it each day.** Work on a project step or take today's Spark.
 
-**4. Watch it add up.** A photo gallery and a streak of every day you made something.
+**4. Watch it add up.** A private photo gallery and a streak of every day you made something.
+
+---
+
+## Your notebook, not a feed
+
+No algorithm. No ads. No promoted posts. Your projects and photos stay yours. The only thing you share is tasks, and only if you want to.
+
+---
+
+## Price
+
+**Pay once. Keep it.** No subscription.
+
+**Students and educators: free** with a valid `.edu` email. Add a backup email when you sign up, and your account (and free access) stays with you after graduation.
 
 ---
 
@@ -69,7 +87,7 @@ Even short bursts of art making can lower stress, and people who do something cr
 
 ### Make something today.
 
-**[Get Artistic Intelligence free]**
+**[Get Artistic Intelligence]** · **[Free with .edu]**
 
 ---
 

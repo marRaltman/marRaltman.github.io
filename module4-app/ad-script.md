@@ -16,5 +16,6 @@
 
 - **Music:** starts as a cold synth hum (0:00–0:04), then switches to light, upbeat acoustic at the record-scratch.
 - **On-screen text:** caption every line for viewers watching on mute.
-- **Call to action:** end card with "Get your first Daily Spark free" and the app link.
+- **Call to action:** end card with "Pay once. Free with a .edu email." and the app link.
+- **Alternate cut:** swap the 0:14–0:20 shot for a maker sharing a TikTok craft post to the app and watching it turn into a step-by-step task.
 - **Claims:** don't add statistics to the ad unless they're sourced in `evidence.md`.
